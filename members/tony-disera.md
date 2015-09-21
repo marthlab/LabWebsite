@@ -1,7 +1,7 @@
 ---
 layout: member
 wholename: Tony Disera
-image: public/images/team/Tony_Disera.JPG
+image: public/images/team/Tony_DiSera.JPG
 title: Software Engineer
 twitter: 
 github: 
