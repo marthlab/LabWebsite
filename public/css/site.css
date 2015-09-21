@@ -1,0 +1,189 @@
+
+
+
+/*
+ * Contents
+ *
+ * Global Resets
+ * Masthead
+ * Container
+ * Sectoin
+ * Footer
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html { height: 100%; margin: 0px; padding: 0px;}
+header { margin: 0px;padding: 0px;}
+body {
+  font-family: 'Open Sans';
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  min-height: 100%;  
+}
+a { color:rgb(110,110,110); text-decoration: underline;}
+
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead {  
+  position: fixed;
+  background: white;
+  top:0px;
+  left:0px;
+  right:0px;     
+  z-index: 3;
+  border-bottom: #081d27;
+  box-shadow: 0px 10px 40px 4px white;
+  font-family: quicksand;
+  padding: 0px;
+  height: 52px;
+/*  box-sizing: border-box;*/
+}
+
+.masthead-container { 
+  width: 1060px; 
+  min-width: 1060px;  
+  margin: 0px auto 0px auto;
+}
+
+.masthead-title {
+  font-family: 'Open Sans';
+   font-size: 37px;
+   color:#c70013;
+   float:left;
+   font-weight: 300;
+   margin-top: 5px;
+}
+.masthead-title a {
+  color: #c70013;
+  text-decoration: none;
+}
+.masthead #menu {
+   font-size: 14px;
+   float:right;
+   margin-top: 18px;
+}
+
+.masthead #menu ul {
+   list-style-type: none;
+   padding: 0;
+   margin-left: 0;
+}
+
+.masthead #menu li {
+   display: inline;
+   margin-left: 50px;
+}
+
+.masthead #menu li a {
+  color:#c70013;
+   padding-bottom:3px;
+   text-decoration: none;
+   border: none;
+}
+
+/*a {text-decoration: none; border-bottom: 1px solid #2d8fc1}*/
+
+.masthead #menu a:visited {color:none;}  /* visited link */
+.masthead #menu a:hover {border-bottom: 2px solid #c70013;}  /* mouse over link */
+.masthead #menu li.active a {border-bottom: 2px solid #c70013;}  /* selected link */
+
+
+
+.container {
+  max-width: 1021px;
+  width: 1021px;
+  min-width: 1021px;
+  z-index: 1;
+  font-size:30px; 
+  width:100%;  
+  margin-top: 60px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(110,110,110);
+  text-align:justify;
+  font-family: 'Open Sans';
+  padding-bottom: 173px;  
+}
+
+
+/*
+ * Section
+ *
+ */
+.section { text-align: center; padding: 30px 0px 50px 0px;}
+.section-title { font-size: 45px;}
+.description { font-size: 14px; text-align:justify; margin-top:5px;}
+
+/*
+ * Homepage
+ *
+ */
+
+.main-image { width: 100%;}
+
+
+/*
+ * People
+ *
+ */
+
+.members ul {
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+}
+.members li {
+  width:31%;
+  margin: 5px 1%;
+  padding:0;
+  vertical-align: top;
+  display: inline-block;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  position: relative;  
+}
+
+.members li:nth-child(3n+1) { float:left; clear:both; margin-right: 2%;}
+.members li:nth-child(3n+3) { float:right; margin-right: 4px}
+.members .snippet { 
+  /*border: 1px solid rgb(200,200,200);*/
+  /*font-family: 'Open Sans', sans-serif;*/   
+  height: 350px; 
+  padding: 5px;
+  box-shadow: 2px 2px 6px 2px rgb(200,200,200);
+  /*border-radius: 3px;*/
+}
+
+.member { font-family: 'Open Sans'; text-align: left}
+.member .text { margin-left: 5px;}
+.member img { width: 100%; }
+.member .name { font-size: 20px; color: rgb(60,60,60); font-weight: bold;}
+.member .title { font-size: 15px; color: rgb(140,140,140);}
+.member .description { font-size: 13px; color: rgb(90,90,90); margin-top: 8px; line-height: 25px; font-weight: 300; }
+
+
+
+/*
+ * Footer
+ *
+ */
+.footer { position: absolute; bottom: 0px; width:100%; min-width: 1066px; left: 0px;}
+.footer .logos {margin: 0px auto 10px auto; width:1000px;text-align:center;position:relative; height: 60px; color:rgb(80,80,80);}
+.footer .developers {background: #123d53; height:60px; padding-top: 10px; color:#2d8fc1; text-align:center;}
+.footer .members {font-size:15px;font-family:quicksand; margin: 5px auto 0px auto; width:800px;text-align:center;}
+.footer img { height: 35px; vertical-align: middle}
+.footer .title {font-size:15px;font-family:quicksand; margin: 0px auto 0px auto; width:400px; color:#2d8fc1}

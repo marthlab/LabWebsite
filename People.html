@@ -1,0 +1,38 @@
+---
+layout: default
+title: "People"
+permalink: people.html
+group: "navigation"
+order: 5
+---
+
+<div class='section members'>
+<!-- Show Members -->
+	<ul>
+	{% for member in site.pages  %}		
+		{% if member.layout == 'member' %}
+			<li class='snippet member'>
+				<img src={{ member.image }}></img>
+				<div class='text'>
+					<div class='title'>{{ member.title | upcase }}</div>
+					<div class='name'>{{ member.wholename }}</div>
+					<div class='description'>{{ member.content }}</div>
+					<div class='links'>
+						
+					</div>							
+				</div>
+			</li>
+	   {% endif %}
+	{% endfor %}
+	</ul>
+	 
+</div>
+<!--
+		List of current members
+			Position
+			Description of position/duties - (3-5 lines)
+			Link to github, twitter, etc
+		List of previous members
+			Time they were in the lab
+			Current Position
+			Link to github, twitter, lab homepage, etc
