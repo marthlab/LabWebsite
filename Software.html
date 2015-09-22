@@ -8,10 +8,29 @@ order: 3
 
 <div class='page-title'>Software</div>
 
-<div class='section'>	       	
-		List of current software
+<div class='section tools'>	       	
+		<!-- List of current software
 		  	Description for each tool - (1 line)
 			Link to Homepage/Download for each tool
-			List of previous software we still want to mention
-		Description for each tool - (1 line)	
+		List of previous software we still want to mention
+		Description for each tool - (1 line)	 -->
+
+	<ul class='cards'>
+	{% for tool in site.pages  %}		
+		{% if tool.layout == 'tool' %}
+			<li class='card tool'>				
+				<img src={{ tool.image }}></img>
+				<div class='text'>
+					<div class='tagline'>{{ tool.tagline | upcase }}</div>
+					<div class='name'>{{ tool.toolname }}</div>					
+					<!-- <div class='links'>
+						<span class='homepage'>{{ tool.homepage }}</span> <span class='github'>{{ tool.github }}</span>
+					</div> -->
+					<div class='description'>{{ tool.content }}</div>
+				</div>				
+			</li>
+	   	{% endif %}
+	{% endfor %}
+	</ul>		
+
 </div>

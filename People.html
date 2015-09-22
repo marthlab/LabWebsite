@@ -11,10 +11,10 @@ order: 5
 
 <div class='section members'>
 <!-- Show Members -->
-	<ul>
+	<ul class='cards'>
 	{% for member in site.pages  %}		
 		{% if member.layout == 'member' %}
-			<li class='snippet member'>
+			<li class='card member'>
 				<img src={{ member.image }}></img>
 				<div class='text'>
 					<div class='title'>{{ member.title | upcase }}</div>
