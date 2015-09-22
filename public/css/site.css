@@ -118,6 +118,9 @@ a { color:rgb(110,110,110); text-decoration: underline;}
   padding-bottom: 173px;  
 }
 
+.page-title { width: 100%; text-align:center; font-size: 45px; font-weight: bold; color: rgb(50,50,50); margin: 20px 0px;}
+.page-title::after { width: 40px; border-top: 1px solid black; content: ""; margin: 5px auto; display: block;}
+
 
 /*
  * Section
