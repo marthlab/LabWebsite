@@ -1,7 +1,7 @@
 ---
 layout: tool
 toolname: Graphite
-image: public/images/tools/noimage.JPG
+image: public/images/tools/noimage.jpg
 tagline: Graph Based Variant Adjudication
 homepage: 
 github: 

@@ -1,7 +1,7 @@
 ---
 layout: tool
 toolname: Rufus
-image: public/images/tools/noimage.JPG
+image: public/images/tools/noimage.jpg
 tagline: Reference Free Variant Discovery
 homepage: 
 github: 

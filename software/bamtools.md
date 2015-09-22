@@ -1,7 +1,7 @@
 ---
 layout: tool
 toolname: bamtools
-image: public/images/tools/noimage.JPG
+image: public/images/tools/noimage.jpg
 tagline: BAM Utility
 homepage: 
 github: pezmaster31/bamtools
