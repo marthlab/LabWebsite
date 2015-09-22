@@ -7,4 +7,4 @@ twitter:
 github: 
 ---
 
-Al does stuff
+Al works on many projects, including iobio, gkno, and the Utah variation pipeline development

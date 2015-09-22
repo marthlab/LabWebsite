@@ -2,9 +2,9 @@
 layout: member
 wholename: Yi Qiao
 image: public/images/team/Yi_Qiao.JPG
-title: Software Engineer
+title: Senior Software Design Engineer
 twitter: 
 github: 
 ---
 
-Yi does stuff
+Yi splits time between many projects, including tumor subclonal structure dynamics, and real-time web based genomics

@@ -2,9 +2,9 @@
 layout: member
 wholename: Dillon Lee
 image: public/images/team/Dillon_Lee.JPG
-title: Software Engineer
+title: Senior Software Developer
 twitter: 
 github: 
 ---
 
-Dillon does stuff
+Dillon works on Graphite, a graph-based variant adjudicator which uses the strengths of multiple calling algorithms to detect genetic variants.

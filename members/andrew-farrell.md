@@ -7,4 +7,4 @@ twitter:
 github: 
 ---
 
-Andrew does stuff
+Andrew created and continuous to improve RUFUS, reference free variant detection methods.
