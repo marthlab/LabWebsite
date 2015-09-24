@@ -18,11 +18,22 @@ order: 5
 				<img src={{ member.image }}></img>
 				<div class='text'>
 					<div class='title'>{{ member.title | upcase }}</div>
-					<div class='name'>{{ member.wholename }}</div>
-					<div class='description'>{{ member.content }}</div>
-					<div class='links'>
-						
-					</div>							
+					<div class='name'>
+						{{ member.wholename }}
+						<span class='icons'>
+							{% if member.github != nil %}
+								<a href="http://github.com/{{ member.github }}" >
+									<img class='github' src="public/images/github.png"></img>
+								</a>
+							{% endif %}
+							{% if member.twitter !=  nil %}
+								<a href="http://twitter.com/{{ member.twitter }}" >
+									<img class='twitter' src="public/images/twitter.svg"></img>
+								</a>
+							{% endif %}
+						</span>
+					</div>
+					<div class='description'>{{ member.content }}</div>											
 				</div>
 			</li>
 	   {% endif %}

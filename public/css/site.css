@@ -169,6 +169,9 @@ a { color:rgb(110,110,110); text-decoration: underline;}
 .cards li.card:nth-child(3n+3) { float:right; margin-right: 4px}
 .cards .card img { width: 100%; }
 .cards .card .text { margin: 0px 5px; }
+.cards .card a { text-decoration: none; }
+.cards .card .twitter { height: 20px; width:20px; vertical-align: middle; margin-top: -3px;  }
+.cards .card .github { height: 20px; width:20px; vertical-align: middle; margin-top: -3px; }
 
 /*
  * People
