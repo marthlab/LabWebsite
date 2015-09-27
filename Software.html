@@ -19,6 +19,11 @@ order: 3
 				<div class='name'>
 				{{ tool.toolname }}
 				<span class='icons'>
+					{% if tool.homepage != nil %}
+						<a href="{{ tool.homepage }}" >
+							<img class='homepage' src="public/images/homepage.png"></img>
+						</a>
+					{% endif %}
 					{% if tool.github != nil %}
 						<a href="http://github.com/{{ tool.github }}" >
 							<img class='github' src="public/images/github.png"></img>
