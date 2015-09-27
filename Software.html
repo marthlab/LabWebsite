@@ -16,10 +16,21 @@ order: 3
 			<img src={{ tool.image }}></img>
 			<div class='text'>
 				<div class='tagline'>{{ tool.tagline | upcase }}</div>
-				<div class='name'>{{ tool.toolname }}</div>					
-				<!-- <div class='links'>
-					<span class='homepage'>{{ tool.homepage }}</span> <span class='github'>{{ tool.github }}</span>
-				</div> -->
+				<div class='name'>
+				{{ tool.toolname }}
+				<span class='icons'>
+					{% if tool.github != nil %}
+						<a href="http://github.com/{{ tool.github }}" >
+							<img class='github' src="public/images/github.png"></img>
+						</a>
+					{% endif %}
+					{% if tool.twitter !=  nil %}
+						<a href="http://twitter.com/{{ tool.twitter }}" >
+							<img class='twitter' src="public/images/twitter.svg"></img>
+						</a>
+					{% endif %}
+				</span>
+				</div>									
 				<div class='description'>{{ tool.content }}</div>
 			</div>				
 		</li>	   	
