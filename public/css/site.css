@@ -149,7 +149,7 @@ a { color:rgb(110,110,110); text-decoration: underline;}
   margin:0;
   padding:0;
 }
-.cards li.card {
+.cards .card {
   width:31%;
   margin: 5px 1%;
   padding:0;
@@ -165,8 +165,8 @@ a { color:rgb(110,110,110); text-decoration: underline;}
   text-align: left;
 }
 
-.cards li.card:nth-child(3n+1) { float:left; clear:both; margin-right: 2%;}
-.cards li.card:nth-child(3n+3) { float:right; margin-right: 4px}
+.cards .card:nth-child(3n+1) { float:left; clear:both; margin-right: 2%;}
+.cards .card:nth-child(3n+3) { float:right; margin-right: 4px}
 .cards .card img { width: 100%; }
 .cards .card .text { margin: 0px 5px; }
 .cards .card a { text-decoration: none; }
@@ -190,6 +190,18 @@ a { color:rgb(110,110,110); text-decoration: underline;}
 .tool .name { font-size: 25px; color: rgb(60,60,60); font-weight: bold;}
 .tool .tagline { font-size: 15px; color: rgb(140,140,140);}
 .tool .description { font-size: 13px; color: rgb(90,90,90); margin-top: 4px; line-height: 25px; font-weight: 300; }
+
+/*
+ * Publications
+ *
+ */
+
+a.publication { text-decoration: none; }
+.publication .journal { border: 1px solid rgb(220,220,220); text-align: center; height: 120px; }
+.publication .journal img { height: 100%; width: auto;}
+.publication .title { font-size: 12px; color: rgb(60,60,60); font-weight: bold;}
+.publication .byline { font-size: 10px; color: rgb(140,140,140);}
+.publication .description { font-size: 12px; color: rgb(40,40,40); margin-top: 6px; line-height: 13px;}
 
 
 

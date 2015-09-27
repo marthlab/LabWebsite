@@ -9,9 +9,19 @@ order: 4
 
 <div class='page-title'>Publications</div>
 
-<div class='section'>		
-		List of Publications
-			Author
-			Description - (1-3 lines)
-			Link to Article
-</div>
+	<ul class='cards'>
+	{% for publication in site.publications reversed %}		
+		<a class='card publication' href={{ publication.link }}>	
+			<li >				
+				<div class='journal'>
+					<img src="public/images/journals/{{ publication.journal | downcase | replace:' ','-' }}.png"></img>
+				</div>				
+				<div class='text'>
+					<div class='title'> {{ publication.title }} </div>
+					<div class='byline'> {{ publication.byline }} </div>				
+					<div class='description'>{{ publication.content }}</div>
+				</div>				
+			</li>	   	
+		</a>
+	{% endfor %}
+	</ul>		

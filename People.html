@@ -12,31 +12,29 @@ order: 5
 <div class='section members'>
 <!-- Show Members -->
 	<ul class='cards'>
-	{% for member in site.pages  %}		
-		{% if member.layout == 'member' %}
-			<li class='card member'>
-				<img src={{ member.image }}></img>
-				<div class='text'>
-					<div class='title'>{{ member.title | upcase }}</div>
-					<div class='name'>
-						{{ member.wholename }}
-						<span class='icons'>
-							{% if member.github != nil %}
-								<a href="http://github.com/{{ member.github }}" >
-									<img class='github' src="public/images/github.png"></img>
-								</a>
-							{% endif %}
-							{% if member.twitter !=  nil %}
-								<a href="http://twitter.com/{{ member.twitter }}" >
-									<img class='twitter' src="public/images/twitter.svg"></img>
-								</a>
-							{% endif %}
-						</span>
-					</div>
-					<div class='description'>{{ member.content }}</div>											
+	{% for member in site.members  %}				
+		<li class='card member'>
+			<img src={{ member.image }}></img>
+			<div class='text'>
+				<div class='title'>{{ member.title | upcase }}</div>
+				<div class='name'>
+					{{ member.wholename }}
+					<span class='icons'>
+						{% if member.github != nil %}
+							<a href="http://github.com/{{ member.github }}" >
+								<img class='github' src="public/images/github.png"></img>
+							</a>
+						{% endif %}
+						{% if member.twitter !=  nil %}
+							<a href="http://twitter.com/{{ member.twitter }}" >
+								<img class='twitter' src="public/images/twitter.svg"></img>
+							</a>
+						{% endif %}
+					</span>
 				</div>
-			</li>
-	   {% endif %}
+				<div class='description'>{{ member.content }}</div>											
+			</div>
+		</li>	   
 	{% endfor %}
 	</ul>
 	 

@@ -15,6 +15,12 @@ description:         'A reserved <a href="http://jekyllrb.com" target="_blank">J
 url:                 http://marthlab.github
 baseurl:             /LabWebsite/
 
+#Collections
+collections:
+ - members
+ - tools
+ - publications
+
 # About/contact
 author:
   name:              Chase Miller
