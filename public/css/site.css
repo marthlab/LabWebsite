@@ -209,9 +209,10 @@ a.publication { text-decoration: none; }
  *
  */
 
-.contact-us { text-align: left; width: 680px; margin: 0px auto;}
+.contact-us { text-align: left; width: 680px; margin: 0px auto; font-size: 20px; color:rgb(60,60,60);}
 .contact-us > div { margin-bottom: 60px; }
-.contact-us .info { margin-left: 150px; margin-top: -44px;}
+.contact-us .title { margin-bottom: 10px;}
+.contact-us .info { margin-left: 150px; margin-top: -30px;}
 
 
 /*
