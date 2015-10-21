@@ -1,7 +1,7 @@
 ---
 layout: page
 toolname: freebayes
-image: public/images/tools/noimage.jpg
+image: public/images/tools/freebayes.png
 tagline: Variant Calling
 homepage: 
 github: ekg/freebayes
