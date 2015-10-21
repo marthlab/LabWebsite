@@ -7,6 +7,6 @@ homepage: http://gkno.me
 github: gkno
 ---
 
-A tool and pipeline management system to effectively deploy the majority of tools developed in 
+A tool and pipeline management system to effectively deploy tools developed in 
 
 the MarthLab as well as other third-party tools
