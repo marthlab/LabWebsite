@@ -5,7 +5,30 @@ group: "navigation"
 order: 1
 ---
 
-<img class='main-image' src='public/images/utah_campus.jpg'></img>
+<script>
+
+	function goCarousel(direction) {
+		console.log('carousel');
+		console.log(direction);
+		var elem = document.querySelector('.main-image.current')
+		if (direction == 'left') { var next = elem.previousElementSibling || document.querySelectorAll('.main-image')[document.querySelectorAll('.main-image').length-1]; }
+		else { var next = elem.nextElementSibling || document.querySelectorAll('.main-image')[0]; }
+		elem.className = elem.className.replace(/\bcurrent\b/,'');
+		next.className = next.className + ' current';
+		
+	}
+
+</script>
+
+<div id='image-holder'>
+	<div class='carousel-ctrl' id='left-ctrl' onClick='goCarousel("left")'><</div>
+	<div class='carousel-ctrl' id='right-ctrl' onClick='goCarousel("right")'>></div>
+	<div id='carousel-img'>
+		<img class='main-image current' src='public/images/utah_campus.jpg'></img>
+		<img class='main-image' src='public/images/genetics-main1.png'></img>
+	</div>	
+	
+</div>
 
 <div class='container'>
 	<div class='mission-statement'>

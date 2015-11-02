@@ -135,7 +135,12 @@ a { color:rgb(110,110,110); text-decoration: underline;}
  *
  */
 
-.main-image { width: 100%; margin-top: 52px;}
+#image-holder { text-align:center; color: black; margin-top: 52px; position: relative;}
+.main-image { width: calc(100% - 200px); display: none;}
+.main-image.current { display:inline;}
+.carousel-ctrl { position: absolute; top: calc(50% - 30px);  border-radius: 60px; height: 60px; width: 60px; color:white; background: black; font-size: 20px; line-height: 60px;}
+#right-ctrl { right:20px;}
+#left-ctrl { left:20px;}
 .mission-statement { font-size: 20px; }
 
 
