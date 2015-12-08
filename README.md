@@ -1,6 +1,13 @@
 # How to Update Website
 
 ## Getting Started
+#### For Small changes
+1. Click on the file you want to change in github
+2. Click the edit icon
+3. Make desired changes
+4. Make a commit with a commit message to save the changes
+
+#### For Large Changes and Adding Files
 1. Clone Repo
 `git clone https://github.com/marthlab/LabWebsite.git`
 2. Checkout gh-pages branch
