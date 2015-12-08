@@ -7,4 +7,4 @@ twitter: MarthGabor
 github:
 ---
 
-Gabor does stuff
+Gabor is the lab head, develops algorithms when he is not writing grants
