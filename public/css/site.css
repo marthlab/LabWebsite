@@ -25,7 +25,7 @@ body {
   margin: 0px;
   padding: 0px;
   position: relative;
-  min-height: 100%;  
+  min-height: 100%;
 }
 a { color:rgb(110,110,110); text-decoration: underline;}
 
@@ -36,12 +36,12 @@ a { color:rgb(110,110,110); text-decoration: underline;}
  * Super small header above the content for site name and short description.
  */
 
-.masthead {  
+.masthead {
   position: fixed;
   background: white;
   top:0px;
   left:0px;
-  right:0px;     
+  right:0px;
   z-index: 3;
   border-bottom: #081d27;
   box-shadow: 0px 10px 40px 4px white;
@@ -51,9 +51,9 @@ a { color:rgb(110,110,110); text-decoration: underline;}
 /*  box-sizing: border-box;*/
 }
 
-.masthead-container { 
-  width: 1060px; 
-  min-width: 1060px;  
+.masthead-container {
+  width: 1060px;
+  min-width: 1060px;
   margin: 0px auto 0px auto;
 }
 
@@ -106,8 +106,8 @@ a { color:rgb(110,110,110); text-decoration: underline;}
   width: 1021px;
   min-width: 1021px;
   z-index: 1;
-  font-size:30px; 
-  width:100%;  
+  font-size:30px;
+  width:100%;
   margin-top: 60px;
   padding-top: 20px;
   margin-left: auto;
@@ -115,7 +115,7 @@ a { color:rgb(110,110,110); text-decoration: underline;}
   color: rgb(110,110,110);
   text-align:justify;
   font-family: 'Open Sans';
-  padding-bottom: 173px;  
+  padding-bottom: 173px;
 }
 
 .page-title { width: 100%; text-align:center; font-size: 45px; font-weight: bold; color: rgb(50,50,50); margin: 20px 0px;}
@@ -164,8 +164,8 @@ a { color:rgb(110,110,110); text-decoration: underline;}
   display: inline-block;
   margin-bottom: 50px;
   box-sizing: border-box;
-  position: relative;  
-  height: 317px; 
+  position: relative;
+  height: 317px;
   padding: 5px;
   box-shadow: 2px 2px 6px 2px rgb(200,200,200);
   font-family: 'Open Sans';
@@ -179,6 +179,7 @@ a { color:rgb(110,110,110); text-decoration: underline;}
 .cards .card a { text-decoration: none; }
 .cards .card .twitter { height: 20px; width:20px; vertical-align: middle; margin-top: -3px;  }
 .cards .card .github { height: 20px; width:20px; vertical-align: middle; margin-top: -3px; }
+.cards .card .email { height: 20px; width:20px; vertical-align: middle; margin-top: -3px; }
 .cards .card .homepage { height: 20px; width:20px; vertical-align: middle; margin-top: -3px; }
 
 /*
